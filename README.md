@@ -1,7 +1,7 @@
 # TOF_Sensor_Test
-Contains code and results of testing time of flight (ToF) sensor performance vs. ultrasonic performance. To replicate the test shown below, download PlatformIO on VSCode, unzip the file "zotbins tof test.zip", and open the uncompressed directory. Rename the source file you want to test to "main.cpp", wire the ESP32 to the corresponding sensor as shown in the comments of the corresponding source file, and build+flash using PlatformIO (not ESP-IDF).
+Contains code and results of testing the time of flight (ToF) sensor performance vs. ultrasonic performance. To replicate the test shown below, download PlatformIO on VSCode, unzip the file "zotbins tof test.zip", and open the uncompressed directory. Rename the source file you want to test to "main.cpp", wire the ESP32 to the corresponding sensor as shown in the comments of the corresponding source file, and build+flash using PlatformIO (not ESP-IDF).
 
-Note: The following information can also be found in the document titled "Ultrasonic vs. ToF Sensors", also located within this repository.
+Note: The following information can also be found in the document titled "Ultrasonic vs. ToF Sensors.pdf", also located within this repository.
 
 ## Introduction
 In its current configuration, the Zotbin utilizes an ultrasonic sensor to measure fullness by emitting sound and measuring the time it takes for the echo to return. In contrast, a time-of-flight (ToF) sensor/camera emits infrared light and measures the time it takes for the reflected light to return, or calculates distance via phase shift. We will evaluate the pros and cons of replacing the current ultrasonic sensor setup with one that includes a ToF sensor instead.
