@@ -1,5 +1,5 @@
 # TOF_Sensor_Test
-Contains code and results of testing time of flight (ToF) sensor performance vs. ultrasonic performance.
+Contains code and results of testing time of flight (ToF) sensor performance vs. ultrasonic performance. To replicate the test shown below, download PlatformIO on VSCode, unzip the file "zotbins tof test.zip", and open the uncompressed directory. Rename the source file you want to test to "main.cpp", wire the ESP32 to the corresponding sensor as shown in the comments of the corresponding source file, and build+flash using PlatformIO (not ESP-IDF).
 
 Note: The following information can also be found in the document titled "Ultrasonic vs. ToF Sensors", also located within this repository.
 
